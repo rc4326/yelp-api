@@ -24,7 +24,8 @@ require_once('lib/OAuth.php');
 
 // Set your OAuth credentials here  
 // These credentials can be obtained from the 'Manage API Access' page in the
-// developers documentation (http://www.yelp.com/developers)
+// developers documentation 
+// Make sure key's, tokens, and secrets are all strings!!!
 $CONSUMER_KEY = NULL;
 $CONSUMER_SECRET = NULL;
 $TOKEN = NULL;
